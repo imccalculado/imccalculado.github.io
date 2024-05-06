@@ -69,9 +69,10 @@ body {
 #estado_res {
     font-size: 19pt;
     font-family: monospace;
+    box-shadow: 3px 4px 4px rgb(161, 161, 161);
 }
 #texto_res {
-    text-decoration: underline;
-    font-size: 20pt;
+    text-shadow: 2px 2px 2px rgb(148, 148, 148);
+    font-size: 19pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

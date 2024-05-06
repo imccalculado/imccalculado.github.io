@@ -49,8 +49,9 @@
 
             /*Tratamento de erro*/
             if (peso === 0 || altura === 0 || imc <= 0 || imc > 70 || isNaN(peso) || isNaN(altura) || altura > 2.20) {
-                res.innerHTML = 'Preencha os campos corretamente!'
-                res.style.color = 'red'
+                res.innerHTML = 'Preencha os campos corretamente!</br><span style="font-size:10pt; text-decoration:underline; "><strong>Use pontos</strong>, e não virgulas</span>'
+
+                res.style.color = 'red' 
                 imagem.style.display = 'none'
                 imagem.style.borderRadius = 'none'
                 imagem.style.boxShadow = 'none'  
