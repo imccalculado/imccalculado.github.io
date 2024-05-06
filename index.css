@@ -1,0 +1,77 @@
+
+body {
+    background-color: rgb(61, 58, 55);
+}
+#titulo {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(160, 0, 160);
+    font-size: 27pt;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-shadow: 3px 4px 4px;
+}
+#calculo {
+    background-color: aliceblue;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    border: solid rgb(176, 183, 189);
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 7px 7px 5px rgb(44, 42, 40);
+}
+.labels{
+    font-family: monospace;
+    font-size: 14pt;
+}
+#label_peso{
+    text-indent: 200px;
+}
+#peso, #altura {
+    margin: 10px;
+}
+#peso {
+    margin-left: 30px;
+}
+
+#botao {
+    display: flex;
+    margin-left: 55px;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 5px;
+}
+#div_tabela {
+    background-color: rgb(91, 143, 189);
+    margin: auto;
+    width: 366px;
+    border: solid rgb(49, 106, 211);
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 7px 7px 5px rgb(44, 42, 40);
+}
+#tabela {
+    padding: 0px 0px 30px 0px;
+}
+#tabela_imagem {
+    border-radius: 20px;
+    box-shadow: 5px 3px 3px rgb(62, 97, 128);
+}
+#titulo_tabela {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-shadow: 3px 4px 4px rgb(31, 67, 134);
+}
+#res {
+    margin-top: 30px;
+}
+#estado_res {
+    font-size: 19pt;
+    font-family: monospace;
+}
+#texto_res {
+    text-decoration: underline;
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
