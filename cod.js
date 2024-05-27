@@ -61,3 +61,8 @@ function calcular() {
         } 
     }
 }
+
+function limpar() {
+    window.document.getElementById('peso').value = ''
+    window.document.getElementById('altura').value = ''
+}

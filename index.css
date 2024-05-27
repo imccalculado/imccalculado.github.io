@@ -7,7 +7,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(160, 0, 160);
     font-size: 27pt;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
     text-shadow: 3px 4px 4px;
 }
 #calculo {
@@ -36,7 +36,6 @@ body {
 
 #botao {
     display: flex;
-    margin-left: 55px;
     margin-top: 15px;
     border-radius: 20px;
     padding: 5px;
@@ -75,4 +74,8 @@ body {
     text-shadow: 2px 2px 2px rgb(148, 148, 148);
     font-size: 19pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#botoes {
+    display: flex;
+    justify-content: space-around;
 }
